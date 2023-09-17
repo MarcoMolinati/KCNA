@@ -310,10 +310,10 @@
             "Chroot, Compute, Cluster and Container",
             "Cluster, Cloud, Compute, and Containers",
             "Code, Containers, Compute, and Cloud",
-            "Cloud, Clusters, Containers, and Code"
+            "Code, Containers, Clusters, and Cloud"
         ],
         "correct_answers": [
-            "Cloud, Clusters, Containers, and Code"
+            "Code, Containers, Clusters, and Cloud"
         ]
     },
     {
@@ -714,7 +714,7 @@
         ]
     },
     {
-        "question": "Which CNCF project is the dominant project with respect to container registriesEnvoyHarborKubernetesRookAnswer(s): B Reference:https://goharbor.io/Reveal Solution  Next Question ?",
+        "question": "Which CNCF project is the dominant project with respect to container registriesEnvoyHarborKubernetesRookAnswer(s): B Reference:https:goharbor.io/Reveal Solution  Next Question ?",
         "answer_options": [
             "Envoy",
             "Harbor",
@@ -817,6 +817,450 @@
         ],
         "correct_answers": [
             "Jaeger"
+        ]
+    },
+    {
+        "question": "Which of the following is a Kubernetes control plane component?",
+        "answer_options": [
+            "container runtime",
+            "Scheduler",
+            "container-manager",
+            "kube-proxy"
+        ],
+        "correct_answers": [
+            "Scheduler"
+        ]
+    },
+    {
+        "question": "What command can you use to display information about a resource type's available fields?",
+        "answer_options": [
+            "kubectl describe",
+            "kubectl explain",
+            "kubectl api-resources",
+            "kubectl get resource"
+        ],
+        "correct_answers": [
+            "kubectl explain"
+        ]
+    },
+    {
+        "question": "What is container orchestration?",
+        "answer_options": [
+            "The process of adopting container technology",
+            "Using automation to handle managing containerized workloads",
+            "The process of packaging code within containers",
+            "A pipeline for building container images"
+        ],
+        "correct_answers": [
+            "Using automation to handle managing containerized workloads"
+        ]
+    },
+    {
+        "question": "What tool allows you to create custom policies to control what can be done in your cluster?",
+        "answer_options": [
+            "OPA Gatekeeper",
+            "Bearer Token Authentication",
+            "etcd",
+            "OpenID Connect"
+        ],
+        "correct_answers": [
+            "OPA Gatekeeper"
+        ]
+    },
+    {
+        "question": "Which part of a Kubernetes cluster includes the API server, scheduler, and etcd?",
+        "answer_options": [
+            "API layer",
+            "Worker node",
+            "Data store",
+            "Control plane"
+        ],
+        "correct_answers": [
+            "Control plane"
+        ]
+    },
+    {
+        "question": "Which of the following Kubernetes resources can utilize the field immutable: true?",
+        "answer_options": [
+            "NetworkPolicy",
+            "ConfigMap",
+            "Deployment",
+            "Pod"
+        ],
+        "correct_answers": [
+            "ConfigMap"
+        ]
+    },
+    {
+        "question": "What tool automatically adds and removes Nodes from the cluster as needed?",
+        "answer_options": [
+            "Horizontal Pod Autoscaler",
+            "Cluster Autoscaler",
+            "Dynamic Cluster",
+            "Kubernetes API Server"
+        ],
+        "correct_answers": [
+            "Cluster Autoscaler"
+        ]
+    },
+    {
+        "question": "What is the reference implementation for the OCI runtime spec?",
+        "answer_options": [
+            "containerd",
+            "runc",
+            "dockershim",
+            "CRI-O"
+        ],
+        "correct_answers": [
+            "runc"
+        ]
+    },
+    {
+        "question": "What Kubernetes feature can expose a Service externally, along with additional functionality such as SSL termination?",
+        "answer_options": [
+            "Egress",
+            "Ingress",
+            "Nodeport service",
+            "ExternalName service"
+        ],
+        "correct_answers": [
+            "Ingress"
+        ]
+    },
+    {
+        "question": "Which of the following statements about NetworkPolicy is true?",
+        "answer_options": [
+            "When a Pod is isolated, only traffic specifically blocked by the NetworkPolicy will be blocked.",
+            "You can only have one NetworkPolicy per Pod.",
+            "If a Pod is not selected by any NetworkPolicy, it is isolated by default.",
+            "A Pod can be isolated when it comes to incoming traffic, and non-isolated for outgoing traffic."
+        ],
+        "correct_answers": [
+            "A Pod can be isolated when it comes to incoming traffic, and non-isolated for outgoing traffic."
+        ]
+    },
+    {
+        "question": "Which Kubernetes authentication method involves using x509 certificates to authenticate a user?",
+        "answer_options": [
+            "OpenID Connect",
+            "Anonymous",
+            "Basic",
+            "Client Certificates"
+        ],
+        "correct_answers": [
+            "Client Certificates"
+        ]
+    },
+    {
+        "question": "For security reasons, you wish to block network access to and from a Pod except for the network communication that it specifically needs. What tool can you use to do this?",
+        "answer_options": [
+            "NetworkPolicy",
+            "NetworkFirewall",
+            "A Headless Service",
+            "OPA Gatekeeper"
+        ],
+        "correct_answers": [
+            "NetworkPolicy"
+        ]
+    },
+    {
+        "question": "Which PersistentVolume reclaim policy requires you to reclaim unused storage resources manually?",
+        "answer_options": [
+            "Manual",
+            "Recycle",
+            "Retain",
+            "Delete"
+        ],
+        "correct_answers": [
+            "Retain"
+        ]
+    },
+    {
+        "question": "Which Service type exposes an application externally by listening on a port on each Node?",
+        "answer_options": [
+            "NodePort",
+            "ClusterIP",
+            "LoadBalancer",
+            "ExternalPort"
+        ],
+        "correct_answers": [
+            "NodePort"
+        ]
+    },
+    {
+        "question": "You have a large batch job running in Kubernetes on a schedule. It requires a large amount of resources to run. What tool could you use to save money by adding temporary cluster Nodes only when this batch job is running",
+        "answer_options": [
+            "Horizontal Pod Autoscaler",
+            "Argo CD",
+            "Cluster Autoscaler",
+            "OPA Gateway"
+        ],
+        "correct_answers": [
+            "Cluster Autoscaler"
+        ]
+    },
+    {
+        "question": "Which Kubernetes component is used by the other control plane components to communicate with each other",
+        "answer_options": [
+            "kubelet",
+            "Controller manager",
+            "API server",
+            "kubectl"
+        ],
+        "correct_answers": [
+            "API server"
+        ]
+    },
+    {
+        "question": "What organization created the container runtime standard implemented by runc?",
+        "answer_options": [
+            "CNCF",
+            "OCI",
+            "Google",
+            "Kubernetes"
+        ],
+        "correct_answers": [
+            "OCI"
+        ]
+    },
+    {
+        "question": "What is a sidecar?",
+        "answer_options": [
+            "An external piece of software that monitors a container's activity",
+            "An additional container running in a Pod alongside the main container",
+            "A helper program that assists you in managing your Kubernetes cluster",
+            "A separate Pod that is set up to provide additional functionality to another Pod"
+        ],
+        "correct_answers": [
+            "An additional container running in a Pod alongside the main container"
+        ]
+    },
+    {
+        "question": "What language was used to build both Flux and Argo CD?",
+        "answer_options": [
+            "COBOL",
+            "JS",
+            "GO",
+            "Python"
+        ],
+        "correct_answers": [
+            "GO"
+        ]
+    },
+    {
+        "question": "You have a Kubernetes application that needs additional resources. To address this need, you add a new Node to the cluster. What type of scaling is this?",
+        "answer_options": [
+            "Horizontal scaling",
+            "Anti-scaling",
+            "Round-Robin scaling",
+            "Vertical scaling"
+        ],
+        "correct_answers": [
+            "Horizontal Scaling"
+        ]
+    },
+    {
+        "question": "What is the standard Kubernetes interface for container runtimes called?",
+        "answer_options": [
+            "CRI-O",
+            "kubelet",
+            "CRI",
+            "containerd"
+        ],
+        "correct_answers": [
+            "CRI"
+        ]
+    },
+    {
+        "question": "What does scheduling mean in Kubernetes?",
+        "answer_options": [
+            "Assigning a Pod to a Node",
+            "Setting a specific maintenance window for a Node",
+            "Setting an automated task to run in the future",
+            "Running a CronJob at the specified time"
+        ],
+        "correct_answers": [
+            "Assigning a Pod to a Node"
+        ]
+    },
+    {
+        "question": "What is a container runtime?",
+        "answer_options": [
+            "The Kubernetes agent that runs on each Node",
+            "The amount of time since the container started up",
+            "A tool that assigns containers to Nodes",
+            "Software that runs containers"
+        ],
+        "correct_answers": [
+            "Software that runs containers"
+        ]
+    },
+    {
+        "question": "Which deployment strategy can you use with Kubernetes Deployments to deploy new code with zero downtime",
+        "answer_options": [
+            "ZeroDowntime",
+            "BlueGreen",
+            "RollingUpdate",
+            "Recreate"
+        ],
+        "correct_answers": [
+            "RollingUpdate"
+        ]
+    },
+    {
+        "question": "What does the Kubernetes virtual cluster network do?",
+        "answer_options": [
+            "Allows worker nodes to communicate with the control plane",
+            "Provides a directory of which Node each Pod is on so that they can look each other up",
+            "Allows Pods to communicate with each other transparently, even if they are on different Nodes",
+            "Allows Nodes in the cluster to communicate with one another"
+        ],
+        "correct_answers": [
+            "Allows Pods to communicate with each other transparently, even if they are on different Nodes"
+        ]
+    },
+    {
+        "question": "Which tool can help you build useful visual representations of Prometheus data?",
+        "answer_options": [
+            "Prometheus Graph Utility",
+            "Grafana",
+            "Rook",
+            "Flux"
+        ],
+        "correct_answers": [
+            "Grafana"
+        ]
+    },
+    {
+        "question": "Which resource would allow you to manage a number of replica Pods for a stateless application?",
+        "answer_options": [
+            "StatelessSet",
+            "Deployment",
+            "DaemonSet",
+            "StatefulSet"
+        ],
+        "correct_answers": [
+            "Deployment"
+        ]
+    },
+    {
+        "question": "What is the name for a special Service that has no cluster IP address?",
+        "answer_options": [
+            "NodePort Service",
+            "Broken Service",
+            "Headless Service",
+            "Incomplete Service"
+        ],
+        "correct_answers": [
+            "Headless Service"
+        ]
+    },
+    {
+        "question": "Which of the following tools is built on the GitOps Toolkit?",
+        "answer_options": [
+            "GitHub",
+            "Linkerd",
+            "Argo CD",
+            "Flux"
+        ],
+        "correct_answers": [
+            "Flux"
+        ]
+    },
+    {
+        "question": "What is application delivery?",
+        "answer_options": [
+            "The processes and techniques used to ship new code to customers",
+            "The process of creating Pods within a cluster",
+            "The process of writing code to meet user requirements",
+            "Completing the first release version of an application"
+        ],
+        "correct_answers": [
+            "The processes and techniques used to ship new code to customers"
+        ]
+    },
+    {
+        "question": "Which of the following is a reason why cloud native technology is important?",
+        "answer_options": [
+            "It encourages companies to build their own datacenters.",
+            "It removes roadblocks that prevent innovation.",
+            "It slows things down so that we can build software more carefully.",
+            "It keeps technology the same."
+        ],
+        "correct_answers": [
+            "It removes roadblocks that prevent innovation."
+        ]
+    },
+    {
+        "question": "What is the name for a tool that manages communication between application components, often adding additional functionality, by routing communication through proxies?",
+        "answer_options": [
+            "Communication Manager",
+            "Service mesh",
+            "NetworkPolicy",
+            "ClusterIP service"
+        ],
+        "correct_answers": [
+            "Service mesh"
+        ]
+    },
+    {
+        "question": "Which control plane component bundles controllers that communicate with cloud provider APIs?",
+        "answer_options": [
+            "etcd",
+            "Controller manager",
+            "Cloud Controller Manager",
+            "Cloud Manager"
+        ],
+        "correct_answers": [
+            "Cloud Controller Manager"
+        ]
+    },
+    {
+        "question": "Which Prometheus metric type tracks a single numeric value that can both rise and fall over time?",
+        "answer_options": [
+            "Summary",
+            "Counter",
+            "Gauge",
+            "FluidIndicator"
+        ],
+        "correct_answers": [
+            "Gauge"
+        ]
+    },
+    {
+        "question": "You have a Pod called sol with a container called saturn. Which of the following commands would allow you to retrieve logs for the saturn container?",
+        "answer_options": [
+            "kubectl get logs sol -c saturn",
+            "kubectl logs saturn -p sol",
+            "kubectl logs sol -c saturn",
+            "kubectl logs -p sol -c saturn"
+        ],
+        "correct_answers": [
+            "kubectl logs sol -c saturn"
+        ]
+    },
+    {
+        "question": "The Kubernetes API uses objects to represent the state of the cluster and the applications running within it. Which of the following terms describes the type of objects Kubernetes uses to represent state?",
+        "answer_options": [
+            "etcd",
+            "JSON",
+            "YAML",
+            "REST"
+        ],
+        "correct_answers": [
+            "REST"
+        ]
+    },
+    {
+        "question": "What are the two primary goals of cloud native?",
+        "answer_options": [
+            "Rapid innovation and reliability",
+            "Quick innovation and quick fixes",
+            "Slow, careful innovation and stable systems",
+            "Low cost and stable progress"
+        ],
+        "correct_answers": [
+            "Rapid innovation and reliability"
         ]
     }
 ]
