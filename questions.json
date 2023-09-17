@@ -1,0 +1,822 @@
+[
+    {
+        "question": "Which is not a service type in Kubernetes?",
+        "answer_options": [
+            "ClusterIP",
+            "NodePort",
+            "Ingress",
+            "LoadBalancer",
+            "ExternalName"
+        ],
+        "correct_answers": [
+            "Ingress"
+        ]
+    },
+    {
+        "question": "What standard does kubelet use to communicate with the container runtime?",
+        "answer_options": [
+            "Service Mesh Interface (SMI)",
+            "CRI-O",
+            "ContainerD",
+            "Container Runtime Interface (CRI)"
+        ],
+        "correct_answers": [
+            "Container Runtime Interface (CRI)"
+        ]
+    },
+    {
+        "question": "What kind of limitation cgroups allows?",
+        "answer_options": [
+            "Prioritization",
+            "Resource limiting",
+            "Accounting",
+            "None of the options",
+            "Control",
+            "Server cpu and memory"
+        ],
+        "correct_answers": [
+            "Prioritization",
+            "Resource limiting",
+            "Accounting",
+            "Control"
+        ]
+    },
+    {
+        "question": "What is the most common way to scale the application in the cloud environment?",
+        "answer_options": [
+            "Parallel Scaling",
+            "Horizontal Scaling",
+            "Vertical Scaling"
+        ],
+        "correct_answers": [
+            "Horizontal Scaling"
+        ]
+    },
+    {
+        "question": "Which of the following is an advantage a cloud-native microservices application has over monolithic applications?",
+        "answer_options": [
+            "Cloud-native microservices applications tend to be faster and more responsive than monolithic applications.",
+            "Cloud-native microservice applications tend to be easier to troubleshoot.",
+            "Cloud-native microservice applications tend to be easier to scale and perform updates on."
+        ],
+        "correct_answers": [
+            "Cloud-native microservice applications tend to be easier to scale and perform updates on."
+        ]
+    },
+    {
+        "question": "An application that is nearing its usage limit. To increase the amount of users it can handle, you allo- cate additional memory resources to each instance of the application. What type of scaling is this?",
+        "answer_options": [
+            "Horizontal Scaling",
+            "Cluster Autoscaling",
+            "Recursive Scaling",
+            "Vertical Scaling"
+        ],
+        "correct_answers": [
+            "Vertical Scaling"
+        ]
+    },
+    {
+        "question": "Which of the following is not the part of Kubernetes Control Plane?",
+        "answer_options": [
+            "kube scheduler",
+            "etcd (pronounce: esty-d)",
+            "kube api-server",
+            "kube-proxy"
+        ],
+        "correct_answers": [
+            "kube-proxy"
+        ]
+    },
+    {
+        "question": "Which of the following factors does scheduling take into account when selecting a Node?",
+        "answer_options": [
+            "How many replicas there are in a Deployment",
+            "Services",
+            "Resource requirements",
+            "The number of existing Pods on a Node"
+        ],
+        "correct_answers": [
+            "Resource requirements"
+        ]
+    },
+    {
+        "question": "What is etcd used for in Kubernetes?",
+        "answer_options": [
+            "Integration with cloud platforms",
+            "Network routing for the cluster",
+            "Kubernetes API security",
+            "Backend object storage for the Kubernetes API"
+        ],
+        "correct_answers": [
+            "Backend object storage for the Kubernetes API"
+        ]
+    },
+    {
+        "question": "What are container runtimes with Kubernetes?",
+        "answer_options": [
+            "CRI-O",
+            "lxd",
+            "containerd",
+            "Dockershim"
+        ],
+        "correct_answers": [
+            "CRI-O",
+            "containerd"
+        ]
+    },
+    {
+        "question": "Which Kubernetes resource creates Kubernetes Jobs?",
+        "answer_options": [
+            "JobFactory",
+            "CronJob",
+            "Task",
+            "JobDeployment"
+        ],
+        "correct_answers": [
+            "CronJob"
+        ]
+    },
+    {
+        "question": "Which of the following are characteristics of Statefulsets?",
+        "answer_options": [
+            "Ordered, graceful deployment and scaling",
+            "Creates replica sets",
+            "Uses headless services"
+        ],
+        "correct_answers": [
+            "Ordered, graceful deployment and scaling"
+        ]
+    },
+    {
+        "question": "What can you use to add new resource types to your cluster?",
+        "answer_options": [
+            "start container",
+            "CustomResourceDefinitions",
+            "init container",
+            "Flux",
+            "CRI-O"
+        ],
+        "correct_answers": [
+            "CustomResourceDefinitions"
+        ]
+    },
+    {
+        "question": "What is horizontal scaling?",
+        "answer_options": [
+            "Creating a Deployment",
+            "Adding resources to existing apps and servers",
+            "Moving workloads from one server to another",
+            "Adding additional replicas of apps and servers"
+        ],
+        "correct_answers": [
+            "Adding additional replicas of apps and servers"
+        ]
+    },
+    {
+        "question": "What kubectl command is used to edit a resource on the server?",
+        "answer_options": [
+            "kubectl resource modify",
+            "kubectl update resource",
+            "kubectl edit",
+            "kubectl resource edit"
+        ],
+        "correct_answers": [
+            "kubectl edit"
+        ]
+    },
+    {
+        "question": "Which of the following computing model doesn’t require you to provision infrastructure?",
+        "answer_options": [
+            "None of the above",
+            "Bare Metal",
+            "Compute Engine",
+            "Virtual Machines",
+            "Serverless"
+        ],
+        "correct_answers": [
+            "Serverless"
+        ]
+    },
+    {
+        "question": "What Kubernetes resource would allow you to run one Pod on some of your Nodes?",
+        "answer_options": [
+            "DaemonSet",
+            "ClusterSet",
+            "Deployment",
+            "ReplicaSet"
+        ],
+        "correct_answers": [
+            "DaemonSet"
+        ]
+    },
+    {
+        "question": "What cloud-native construct does a kubernetes pod wrap?",
+        "answer_options": [
+            "Container",
+            "Virtual Machine (VM)",
+            "side car process",
+            "Docker image"
+        ],
+        "correct_answers": [
+            "Container"
+        ]
+    },
+    {
+        "question": "What is the smallest possible unit in Kubernetes to run a container?",
+        "answer_options": [
+            "pod",
+            "docker",
+            "service",
+            "container"
+        ],
+        "correct_answers": [
+            "pod"
+        ]
+    },
+    {
+        "question": "What command can you use to get documentation about a resource type from the command line?",
+        "answer_options": [
+            "kubectl api-resources",
+            "kubectl explain",
+            "kubectl get",
+            "kubeadm get-resource"
+        ],
+        "correct_answers": [
+            "kubectl explain"
+        ]
+    },
+    {
+        "question": "Stateful set requires which service for the network identity of pods?",
+        "answer_options": [
+            "Ingress",
+            "Load Balancer Service",
+            "Headless Service"
+        ],
+        "correct_answers": [
+            "Headless Service"
+        ]
+    },
+    {
+        "question": "What Linux feature is used to provide isolation for containers?",
+        "answer_options": [
+            "Processes",
+            "Services",
+            "NetworkPolicy",
+            "Control groups"
+        ],
+        "correct_answers": [
+            "Control groups"
+        ]
+    },
+    {
+        "question": "What does CNCF stand for?",
+        "answer_options": [
+            "Cloud Native Computing Foundation",
+            "Cloud Native Cloud Foundation",
+            "Cloud Native Container Foundation"
+        ],
+        "correct_answers": [
+            "Cloud Native Computing Foundation"
+        ]
+    },
+    {
+        "question": "Which of the following are not the metrics for Site Reliability Engineering?",
+        "answer_options": [
+            "Service Level Objectives 'SLO'",
+            "Service Level Agreements 'SLA'",
+            "Service Level Indicators 'SLI'",
+            "Service Level Definition 'SLD'"
+        ],
+        "correct_answers": [
+            "Service Level Definition 'SLD'"
+        ]
+    },
+    {
+        "question": "There are three Nodes in a cluster, and want to run exactly one replica of a Pod on each Node. Pre-fer to automatically create a replica on any new Nodes when they are added. Which Kubernetes re- source should you use?",
+        "answer_options": [
+            "DaemonSet",
+            "ReplicaSet",
+            "NodeSet",
+            "StatefulSet",
+            "Deployment"
+        ],
+        "correct_answers": [
+            "DaemonSet"
+        ]
+    },
+    {
+        "question": "The 4C’s of Cloud Native security",
+        "answer_options": [
+            "Chroot, Compute, Cluster and Container",
+            "Cluster, Cloud, Compute, and Containers",
+            "Code, Containers, Compute, and Cloud",
+            "Cloud, Clusters, Containers, and Code"
+        ],
+        "correct_answers": [
+            "Cloud, Clusters, Containers, and Code"
+        ]
+    },
+    {
+        "question": "Various Container Orchestrator Systems (COS)?",
+        "answer_options": [
+            "Apache Mesos",
+            "None of the options",
+            "Docker Swarm",
+            "Kubernetes"
+        ],
+        "correct_answers": [
+            "Apache Mesos",
+            "Docker Swarm",
+            "Kubernetes"
+        ]
+    },
+    {
+        "question": "Which is NOT a use case for the Kubernetes dashboard?",
+        "answer_options": [
+            "Troubleshooting any issues with applications",
+            "Managing running applications",
+            "Installing new Kubernetes cluster",
+            "Managing the entire Kubernetes cluster"
+        ],
+        "correct_answers": [
+            "Installing new Kubernetes cluster"
+        ]
+    },
+    {
+        "question": "Which kubernetes object do deployments use behind the scenes when they need to scale pods?",
+        "answer_options": [
+            "POD",
+            "Deployment",
+            "Horizontal pod autoscaler",
+            "Api Scheduler",
+            "Replicasets"
+        ],
+        "correct_answers": [
+            "Replicasets"
+        ]
+    },
+    {
+        "question": "To specify a Kubernetes object which language is used?",
+        "answer_options": [
+            "JSON",
+            "Go",
+            "YAML",
+            "Node",
+            "Python"
+        ],
+        "correct_answers": [
+            "YAML"
+        ]
+    },
+    {
+        "question": "Which organizational persona creates Service Level Agreements 'SLA', Service Level Objectives 'SLO', and Service Level Indicator 'SLI'?",
+        "answer_options": [
+            "Developer",
+            "DevSecOps",
+            "Site Reliability Engineer (SRE)",
+            "Security and Compliance Engineer",
+            "DevOps"
+        ],
+        "correct_answers": [
+            "Site Reliability Engineer (SRE)"
+        ]
+    },
+    {
+        "question": "A__________ is a ready-to-run software package, containing everything needed to run an application.",
+        "answer_options": [
+            "Container Repository",
+            "Container Runtime",
+            "Docker",
+            "Container Image"
+        ],
+        "correct_answers": [
+            "Container Image"
+        ]
+    },
+    {
+        "question": "What is autoscaling?",
+        "answer_options": [
+            "Automatically measuring resource usage",
+            "Automatically assigning workloads to nodes in a cluster",
+            "Automatically repairing broken application instances",
+            "Automatically adding or removing compute resources as needed"
+        ],
+        "correct_answers": [
+            "Automatically adding or removing compute resources as needed"
+        ]
+    },
+    {
+        "question": "Open Container Initiative set container standards for:",
+        "answer_options": [
+            "Code, Build, Distribute, Deploy containers",
+            "Run, build, and image",
+            "Code, Build, Distribute containers",
+            "Run, Build, Distribute containers"
+        ],
+        "correct_answers": [
+            "Run, Build, Distribute containers"
+        ]
+    },
+    {
+        "question": "What are the two major components of service mesh?",
+        "answer_options": [
+            "Control plane and Data plane",
+            "Master plane and Data plane",
+            "None of the options",
+            "Controller plane and User plane",
+            "Master plane and User plane"
+        ],
+        "correct_answers": [
+            "Control plane and Data plane"
+        ]
+    },
+    {
+        "question": "What is the command to list all the available objects in your Kubernetes cluster?",
+        "answer_options": [
+            "kubectl get all",
+            "kubectl get api-resources",
+            "kubectl api-resources",
+            "kubectl get pods"
+        ],
+        "correct_answers": [
+            "kubectl api-resources"
+        ]
+    },
+    {
+        "question": "A new Pod is created. Then, the Pod is assigned to a Node. Which Kubernetes component was re- sponsible for determining which Node to assign the Pod to?",
+        "answer_options": [
+            "kubelet",
+            "Scheduler",
+            "API Server",
+            "Controller manager"
+        ],
+        "correct_answers": [
+            "Scheduler"
+        ]
+    },
+    {
+        "question": "Which of the following is not the required field to describe Kubernetes objects?",
+        "answer_options": [
+            "metadata",
+            "apiVersion",
+            "Kind",
+            "Container",
+            "spec"
+        ],
+        "correct_answers": [
+            "Container"
+        ]
+    },
+    {
+        "question": "Which access control component of Kubernetes is responsible for authorization and decides what requestor is allowed to do?",
+        "answer_options": [
+            "Service Account",
+            "Role-based access control 'RBAC'",
+            "Deployment"
+        ],
+        "correct_answers": [
+            "Role-based access control 'RBAC'"
+        ]
+    },
+    {
+        "question": "How to create deployment name app-dep, image=nginx, and replicas 5 using imperative command?",
+        "answer_options": [
+            "kubectl create app-dep deployment --image=nginx --replicas=5",
+            "kubectl create deployment app-dep --image=nginx --replicas=5",
+            "kubectl create app-dep deployment --replicas=5 --image=nginx"
+        ],
+        "correct_answers": [
+            "kubectl create deployment app-dep --image=nginx --replicas=5"
+        ]
+    },
+    {
+        "question": "Which of the following container runtime is planned to be deprecated in Kubernetes 1.20 and high- er?",
+        "answer_options": [
+            "cri-o",
+            "None of the options",
+            "docker",
+            "podman",
+            "containerd"
+        ],
+        "correct_answers": [
+            "docker"
+        ]
+    },
+    {
+        "question": "Which style of operations are preferred for K8S and cloud native applications?",
+        "answer_options": [
+            "JSON",
+            "Declarative",
+            "Imperative"
+        ],
+        "correct_answers": [
+            "Declarative"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a Kubernetes component?",
+        "answer_options": [
+            "Scheduler",
+            "Docker",
+            "Cloud Controller manager",
+            "Kube-proxy"
+        ],
+        "correct_answers": [
+            "Docker"
+        ]
+    },
+    {
+        "question": "Which part of a Kubernetes cluster is responsible for running container workloads?",
+        "answer_options": [
+            "Worker Node",
+            "kube-proxy",
+            "Control plane",
+            "etcd"
+        ],
+        "correct_answers": [
+            "Worker Node"
+        ]
+    },
+    {
+        "question": "Which control plane component is responsible for scheduling pods?",
+        "answer_options": [
+            "kube-proxy",
+            "kube scheduler",
+            "kubelet",
+            "kube api-server"
+        ],
+        "correct_answers": [
+            "kube scheduler"
+        ]
+    },
+    {
+        "question": "What is a benefits of Kubernetes federation?",
+        "answer_options": [
+            "Avoids scalability limits on pods and nodes",
+            "Creates highly available clusters in different regions",
+            "Low latency"
+        ],
+        "correct_answers": [
+            "Avoids scalability limits on pods and nodes",
+            "Creates highly available clusters in different regions",
+            "Low latency"
+        ]
+    },
+    {
+        "question": "To run a startup task before a Pod's container starts up. What Kubernetes feature can help you ac- complish this?",
+        "answer_options": [
+            "Init container",
+            "Sidecar container",
+            "Startup probe",
+            "DaemonSet"
+        ],
+        "correct_answers": [
+            "Init container"
+        ]
+    },
+    {
+        "question": "Which of the following best describes the way K8S Role-based access control (RBAC) works?",
+        "answer_options": [
+            "K8S does not do RBAC or Cluster role",
+            "RBAC lists which operations are denied to users",
+            "States which users can perform which actions against the resources."
+        ],
+        "correct_answers": [
+            "States which users can perform which actions against the resources."
+        ]
+    },
+    {
+        "question": "The Kubernetes API provides an interface for storing objects. Which of the following describes the type of objects stored by the Kubernetes API?",
+        "answer_options": [
+            "Containers",
+            "REST",
+            "YAML",
+            "ETCD"
+        ],
+        "correct_answers": [
+            "REST"
+        ]
+    },
+    {
+        "question": "What is the name of the Kubernetes agent that runs on each worker nodes?",
+        "answer_options": [
+            "kubelet",
+            "systemd",
+            "kube-proxy",
+            "pod"
+        ],
+        "correct_answers": [
+            "kubelet"
+        ]
+    },
+    {
+        "question": "Which of the following best describes the way kubernetes Role-based access control (RBAC) works?",
+        "answer_options": [
+            "Kubernetes does not do RBAC",
+            "Kubernetes RBAC states which users can perform which actions against which re-source",
+            "Kubernetes RBAC lists which operations on which resources are denied to users",
+            "Kubernetes RBAC is responsible for authenticating subjects such as users and groups"
+        ],
+        "correct_answers": [
+            "Kubernetes RBAC states which users can perform which actions against which re-source"
+        ]
+    },
+    {
+        "question": "'kubectl delete -n my-ns po,svc --all' will delete pods and services including uninitialized ones in the namespace 'my-ns'",
+        "answer_options": [
+            "FALSE",
+            "TRUE"
+        ],
+        "correct_answers": [
+            "TRUE"
+        ]
+    },
+    {
+        "question": "Which command is used to expose Kubernetes service?",
+        "answer_options": [
+            "kubectl expose",
+            "kubectl create",
+            "kubectl run"
+        ],
+        "correct_answers": [
+            "kubectl expose"
+        ]
+    },
+    {
+        "question": "How can you achieve cost optimization in the cloud environment?",
+        "answer_options": [
+            "Use On Demand instances",
+            "Use Spot Instances",
+            "Use Reserved Instances",
+            "Use Bare Metal"
+        ],
+        "correct_answers": [
+            "Use Reserved Instances"
+        ]
+    },
+    {
+        "question": "Which style of operations are preferred for kubernetes and cloud-native applications?",
+        "answer_options": [
+            "Imperative",
+            "None of the above",
+            "Declarative"
+        ],
+        "correct_answers": [
+            "Declarative"
+        ]
+    },
+    {
+        "question": "What is the main difference between Argo vs. Flux CD?",
+        "answer_options": [
+            "Argo is pull-based, and Flux is push-based",
+            "No difference; both are pull-based",
+            "Argo is push-based, and Flux is pull-based",
+            "No difference; both are push-based"
+        ],
+        "correct_answers": [
+            "Argo is push-based, and Flux is pull-based"
+        ]
+    },
+    {
+        "question": "What is a commonly used package manager for kubernetes applications?",
+        "answer_options": [
+            "npm",
+            "apt",
+            "helm",
+            "kubernetes manifest"
+        ],
+        "correct_answers": [
+            "helm"
+        ]
+    },
+    {
+        "question": "What is not semantic versioning?",
+        "answer_options": [
+            "1.0.0",
+            "2022-05-04",
+            "1.0.0-alpha",
+            "1.0.0-beta.2"
+        ],
+        "correct_answers": [
+            "2022-05-04"
+        ]
+    },
+    {
+        "question": "Which of the following command is used to get detailed information about the pod?",
+        "answer_options": [
+            "kubectl info",
+            "kubectl get",
+            "kubectl describe",
+            "kubectl explain"
+        ],
+        "correct_answers": [
+            "kubectl describe"
+        ]
+    },
+    {
+        "question": "Which CNCF project is the dominant project with respect to container registriesEnvoyHarborKubernetesRookAnswer(s): B Reference:https://goharbor.io/Reveal Solution  Next Question ?",
+        "answer_options": [
+            "Envoy",
+            "Harbor",
+            "Kubernetes",
+            "Rook"
+        ],
+        "correct_answers": [
+            "Harbor"
+        ]
+    },
+    {
+        "question": "Which statement is true about Pod Networking?",
+        "answer_options": [
+            "All pod requires an external DNS server to get the hostname",
+            "All containers in a pod get a unique IP address",
+            "All containers in a pod share a single IP address",
+            "All pod requires NAT to get a unique IP address."
+        ],
+        "correct_answers": [
+            "All containers in a pod share a single IP address"
+        ]
+    },
+    {
+        "question": "How can persistent volume be provisioned?",
+        "answer_options": [
+            "Automatically",
+            "Bootstrap",
+            "Dynamically"
+        ],
+        "correct_answers": [
+            "Dynamically"
+        ]
+    },
+    {
+        "question": "Which component of the kubernetes control-plane (master) are all requests to deploy and manage objects posted to?",
+        "answer_options": [
+            "ETCD",
+            "Controller Manager",
+            "Kube-proxy",
+            "API Server",
+            "Kubelet"
+        ],
+        "correct_answers": [
+            "API Server"
+        ]
+    },
+    {
+        "question": "kubeadm is an administrative dashboard for kubernetes?",
+        "answer_options": [
+            "False",
+            "True"
+        ],
+        "correct_answers": [
+            "False"
+        ]
+    },
+    {
+        "question": "What CNCF project is the leading DNS project in the CNCF landscape?",
+        "answer_options": [
+            "Kubernetes",
+            "gRPC",
+            "KubeDNS",
+            "CoreDNS"
+        ],
+        "correct_answers": [
+            "CoreDNS"
+        ]
+    },
+    {
+        "question": "The three typical opentelemetry data is?",
+        "answer_options": [
+            "Metrics",
+            "Traces",
+            "Logs",
+            "All of the options"
+        ],
+        "correct_answers": [
+            "All of the options"
+        ]
+    },
+    {
+        "question": "Which kubernetes object do deployments use behind the scenes when they need to scale pods?",
+        "answer_options": [
+            "Horizontal pod autoscaler",
+            "ReplicaSets",
+            "kubectl",
+            "Replication controller"
+        ],
+        "correct_answers": [
+            "ReplicaSets"
+        ]
+    },
+    {
+        "question": "Which project in this list is a leading project in the observability space?",
+        "answer_options": [
+            "Jaeger",
+            "Vitess",
+            "Argo",
+            "Kubernetes"
+        ],
+        "correct_answers": [
+            "Jaeger"
+        ]
+    }
+]
